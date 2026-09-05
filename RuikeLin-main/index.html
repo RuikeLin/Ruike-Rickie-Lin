@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Ruike Lin's Website</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet"/>
+        <style>
+            .about-section {
+                display: flex;
+                align-items: flex-start;
+                gap: 40px;
+                flex-wrap: wrap;
+            }
+            .profile-card {
+                text-align: left;
+                max-width: 250px;
+            }
+            .profile-img {
+                width: 160px;
+                height: 160px;
+                object-fit: cover;
+                border-radius: 50%;
+                margin-bottom: 15px;
+            }
+            .profile-name {
+                font-size: 1.5em;
+                font-weight: bold;
+                color: #2B2623;
+            }
+            .profile-title, .profile-email {
+                font-size: 1em;
+                color: #5a5a5a;
+            }
+            .about-text {
+                flex: 1;
+                max-width: 600px;
+            }
+
+            .btn-filled-golden {
+    background-color: #EBD1A1;
+    color: #2B2623;
+    border: none;
+  }
+
+  .btn-filled-golden:hover {
+    background-color: #d5b578;
+  }
+        </style>
+    </head>
+    <body>
+        <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Ruike Lin</a>
+                <div>
+                    <a class="m-2 nav-link" href="index.html">About Me</a>
+                    <a class="m-2 nav-link" href="my-work.html">My Work</a>
+                </div>
+            </div>
+        </nav>
+        </header>
+
+        <main class="container mt-4">
+            <section class="m-3">
+                <h1 id="my-work-title">About Me</h1>
+
+                <div class="about-section">
+                    <div class="profile-card">
+                        <img src="Ruike.jpg" alt="Ruike Lin" class="profile-img">
+                        <div class="profile-name">Ruike Lin</div>
+                        <div class="profile-title">Undergraduate Student<br>The Information School,<br>University of Wisconsin - Madison</div>
+                        <div class="profile-email">rlin73@wisc.edu</div>
+                        <p class="mt-4">
+                            <a href="Ruike Lin CV copy.pdf" target="_blank" class="btn btn-filled-golden">
+                                📄 View My Resume
+                              </a>
+                              
+                          </p>  
+                    </div>
+
+                    <div class="about-text">
+                        <p class="lead">
+Hi, my name is Rickie (Ruike) Lin. I am a Master’s student in Industrial Engineering at the University of Wisconsin–Madison, with interests in Human-Computer Interaction, AI, and human-centered design. 
+With a background in Information Science and Data Science, I am especially interested in understanding how people interact with emerging technologies and how these systems can be designed to better support human needs. 
+My research experience includes studying user behavior and engagement through the 
+<a href="my-work.html#project2-heading" class="btn btn-filled-golden btn-sm">
+    Zooniverse Research Project
+</a>.
+                               related to my field of study.
+                        </p>
+                        <div class="row align-items-center mt-4">
+                            <div class="col-md-7">
+                              <p class="lead">
+                                This is my five year in Wisconsin, and I have spent the past three years in Madison. Outside of my studies, I am a passionate dog lover and have two dogs. On weekends, I often take them to a nearby park, where we enjoy walks and outdoor activities together.
+                              </p>
+                            </div>
+                            <div class="col-md-5 text-center">
+                              <img src="dog.png" alt="My dogs and me" class="img-fluid rounded" style="max-height: 300px;">
+                            </div>
+                          </div>
+                    </div>
+                    
+                      
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
